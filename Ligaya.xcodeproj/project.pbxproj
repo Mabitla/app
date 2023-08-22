@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B65E1D72A953A8400E39D50 /* LigayaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B65E1D62A953A8400E39D50 /* LigayaApp.swift */; };
+		2B65E1D92A953A8400E39D50 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B65E1D82A953A8400E39D50 /* ContentView.swift */; };
+		2B65E1DB2A953A8600E39D50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B65E1DA2A953A8600E39D50 /* Assets.xcassets */; };
+		2B65E1DE2A953A8600E39D50 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B65E1DD2A953A8600E39D50 /* Preview Assets.xcassets */; };
+		2B65E1E82A953A8700E39D50 /* LigayaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B65E1E72A953A8700E39D50 /* LigayaTests.swift */; };
+		2B65E1F22A953A8700E39D50 /* LigayaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B65E1F12A953A8700E39D50 /* LigayaUITests.swift */; };
+		2B65E1F42A953A8700E39D50 /* LigayaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B65E1F32A953A8700E39D50 /* LigayaUITestsLaunchTests.swift */; };
+		2B65E2012A953ED300E39D50 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B65E2002A953ED300E39D50 /* ItemDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B65E1E42A953A8700E39D50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B65E1CB2A953A8400E39D50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B65E1D22A953A8400E39D50;
+			remoteInfo = Ligaya;
+		};
+		2B65E1EE2A953A8700E39D50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B65E1CB2A953A8400E39D50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B65E1D22A953A8400E39D50;
+			remoteInfo = Ligaya;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B65E1D32A953A8400E39D50 /* Ligaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ligaya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B65E1D62A953A8400E39D50 /* LigayaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigayaApp.swift; sourceTree = "<group>"; };
+		2B65E1D82A953A8400E39D50 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B65E1DA2A953A8600E39D50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B65E1DD2A953A8600E39D50 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2B65E1E32A953A8700E39D50 /* LigayaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LigayaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B65E1E72A953A8700E39D50 /* LigayaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigayaTests.swift; sourceTree = "<group>"; };
+		2B65E1ED2A953A8700E39D50 /* LigayaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LigayaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B65E1F12A953A8700E39D50 /* LigayaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigayaUITests.swift; sourceTree = "<group>"; };
+		2B65E1F32A953A8700E39D50 /* LigayaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LigayaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2B65E2002A953ED300E39D50 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B65E1D02A953A8400E39D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B65E1E02A953A8700E39D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B65E1EA2A953A8700E39D50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B65E1CA2A953A8400E39D50 = {
+			isa = PBXGroup;
+			children = (
+				2B65E1D52A953A8400E39D50 /* Ligaya */,
+				2B65E1E62A953A8700E39D50 /* LigayaTests */,
+				2B65E1F02A953A8700E39D50 /* LigayaUITests */,
+				2B65E1D42A953A8400E39D50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B65E1D42A953A8400E39D50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B65E1D32A953A8400E39D50 /* Ligaya.app */,
+				2B65E1E32A953A8700E39D50 /* LigayaTests.xctest */,
+				2B65E1ED2A953A8700E39D50 /* LigayaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B65E1D52A953A8400E39D50 /* Ligaya */ = {
+			isa = PBXGroup;
+			children = (
+				2B65E1D62A953A8400E39D50 /* LigayaApp.swift */,
+				2B65E1D82A953A8400E39D50 /* ContentView.swift */,
+				2B65E2002A953ED300E39D50 /* ItemDetailView.swift */,
+				2B65E1DA2A953A8600E39D50 /* Assets.xcassets */,
+				2B65E1DC2A953A8600E39D50 /* Preview Content */,
+			);
+			path = Ligaya;
+			sourceTree = "<group>";
+		};
+		2B65E1DC2A953A8600E39D50 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2B65E1DD2A953A8600E39D50 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2B65E1E62A953A8700E39D50 /* LigayaTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B65E1E72A953A8700E39D50 /* LigayaTests.swift */,
+			);
+			path = LigayaTests;
+			sourceTree = "<group>";
+		};
+		2B65E1F02A953A8700E39D50 /* LigayaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B65E1F12A953A8700E39D50 /* LigayaUITests.swift */,
+				2B65E1F32A953A8700E39D50 /* LigayaUITestsLaunchTests.swift */,
+			);
+			path = LigayaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B65E1D22A953A8400E39D50 /* Ligaya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B65E1F72A953A8700E39D50 /* Build configuration list for PBXNativeTarget "Ligaya" */;
+			buildPhases = (
+				2B65E1CF2A953A8400E39D50 /* Sources */,
+				2B65E1D02A953A8400E39D50 /* Frameworks */,
+				2B65E1D12A953A8400E39D50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ligaya;
+			productName = Ligaya;
+			productReference = 2B65E1D32A953A8400E39D50 /* Ligaya.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B65E1E22A953A8700E39D50 /* LigayaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B65E1FA2A953A8700E39D50 /* Build configuration list for PBXNativeTarget "LigayaTests" */;
+			buildPhases = (
+				2B65E1DF2A953A8700E39D50 /* Sources */,
+				2B65E1E02A953A8700E39D50 /* Frameworks */,
+				2B65E1E12A953A8700E39D50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B65E1E52A953A8700E39D50 /* PBXTargetDependency */,
+			);
+			name = LigayaTests;
+			productName = LigayaTests;
+			productReference = 2B65E1E32A953A8700E39D50 /* LigayaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B65E1EC2A953A8700E39D50 /* LigayaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B65E1FD2A953A8700E39D50 /* Build configuration list for PBXNativeTarget "LigayaUITests" */;
+			buildPhases = (
+				2B65E1E92A953A8700E39D50 /* Sources */,
+				2B65E1EA2A953A8700E39D50 /* Frameworks */,
+				2B65E1EB2A953A8700E39D50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B65E1EF2A953A8700E39D50 /* PBXTargetDependency */,
+			);
+			name = LigayaUITests;
+			productName = LigayaUITests;
+			productReference = 2B65E1ED2A953A8700E39D50 /* LigayaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B65E1CB2A953A8400E39D50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2B65E1D22A953A8400E39D50 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2B65E1E22A953A8700E39D50 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2B65E1D22A953A8400E39D50;
+					};
+					2B65E1EC2A953A8700E39D50 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2B65E1D22A953A8400E39D50;
+					};
+				};
+			};
+			buildConfigurationList = 2B65E1CE2A953A8400E39D50 /* Build configuration list for PBXProject "Ligaya" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B65E1CA2A953A8400E39D50;
+			productRefGroup = 2B65E1D42A953A8400E39D50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B65E1D22A953A8400E39D50 /* Ligaya */,
+				2B65E1E22A953A8700E39D50 /* LigayaTests */,
+				2B65E1EC2A953A8700E39D50 /* LigayaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B65E1D12A953A8400E39D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B65E1DE2A953A8600E39D50 /* Preview Assets.xcassets in Resources */,
+				2B65E1DB2A953A8600E39D50 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B65E1E12A953A8700E39D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B65E1EB2A953A8700E39D50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B65E1CF2A953A8400E39D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B65E2012A953ED300E39D50 /* ItemDetailView.swift in Sources */,
+				2B65E1D92A953A8400E39D50 /* ContentView.swift in Sources */,
+				2B65E1D72A953A8400E39D50 /* LigayaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B65E1DF2A953A8700E39D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B65E1E82A953A8700E39D50 /* LigayaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B65E1E92A953A8700E39D50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B65E1F22A953A8700E39D50 /* LigayaUITests.swift in Sources */,
+				2B65E1F42A953A8700E39D50 /* LigayaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B65E1E52A953A8700E39D50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B65E1D22A953A8400E39D50 /* Ligaya */;
+			targetProxy = 2B65E1E42A953A8700E39D50 /* PBXContainerItemProxy */;
+		};
+		2B65E1EF2A953A8700E39D50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B65E1D22A953A8400E39D50 /* Ligaya */;
+			targetProxy = 2B65E1EE2A953A8700E39D50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B65E1F52A953A8700E39D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2B65E1F62A953A8700E39D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B65E1F82A953A8700E39D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ligaya/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.optic-computers.Ligaya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B65E1F92A953A8700E39D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ligaya/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.optic-computers.Ligaya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B65E1FB2A953A8700E39D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.optic-computers.LigayaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ligaya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ligaya";
+			};
+			name = Debug;
+		};
+		2B65E1FC2A953A8700E39D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.optic-computers.LigayaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ligaya.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ligaya";
+			};
+			name = Release;
+		};
+		2B65E1FE2A953A8700E39D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.optic-computers.LigayaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ligaya;
+			};
+			name = Debug;
+		};
+		2B65E1FF2A953A8700E39D50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.optic-computers.LigayaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ligaya;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B65E1CE2A953A8400E39D50 /* Build configuration list for PBXProject "Ligaya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B65E1F52A953A8700E39D50 /* Debug */,
+				2B65E1F62A953A8700E39D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B65E1F72A953A8700E39D50 /* Build configuration list for PBXNativeTarget "Ligaya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B65E1F82A953A8700E39D50 /* Debug */,
+				2B65E1F92A953A8700E39D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B65E1FA2A953A8700E39D50 /* Build configuration list for PBXNativeTarget "LigayaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B65E1FB2A953A8700E39D50 /* Debug */,
+				2B65E1FC2A953A8700E39D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B65E1FD2A953A8700E39D50 /* Build configuration list for PBXNativeTarget "LigayaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B65E1FE2A953A8700E39D50 /* Debug */,
+				2B65E1FF2A953A8700E39D50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B65E1CB2A953A8400E39D50 /* Project object */;
+}
